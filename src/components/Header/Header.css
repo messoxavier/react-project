@@ -1,0 +1,22 @@
+.header {
+  background-color: #282c34;
+  padding: 12px 20px;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 36px;
+  height: auto;
+}
+
+/* Telas maiores: aumenta um pouco o espaçamento */
+@media (min-width: 768px) {
+  .header {
+    padding: 20px 40px;
+  }
+
+  .logo {
+    width: 48px;
+  }
+}

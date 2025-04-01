@@ -1,0 +1,16 @@
+.footer {
+  background-color: #282c34;
+  color: #fff;
+  text-align: center;
+  padding: 16px 10px;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+/* Ajustes para telas maiores */
+@media (min-width: 768px) {
+  .footer {
+    padding: 20px 40px;
+    font-size: 16px;
+  }
+}
