@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './LoginForm.css';
 import { useState } from 'react';
 
@@ -38,7 +39,7 @@ function LoginForm() {
         <div className="login-links">
           <a href="#">Esqueceu sua senha?</a>
           <span> | </span>
-          <a href="#">Cadastrar-se</a>
+          <Link to="/cadastro">Cadastrar-se</Link>
         </div>
       </form>
     </div>
