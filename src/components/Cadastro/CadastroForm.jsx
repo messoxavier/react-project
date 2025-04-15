@@ -1,4 +1,5 @@
 import './CadastroForm.css';
+import { Link } from 'react-router-dom';
 import { useState } from 'react';
 
 function CadastroForm() {
@@ -46,7 +47,7 @@ function CadastroForm() {
       <button type="submit">Cadastrar</button>
 
       <div className="cadastro-links">
-        <a href="#">Já tem uma conta?</a>
+      <Link to="/">Já tem uma conta?</Link>
       </div>
     </form>
     </div>
